@@ -43,7 +43,7 @@ const Footer = () => {
 
                 <div className='flex justify-center items-center gap-2 text-sm'>
                     <span>SERVER STATUS:</span>
-                    <span className={`w-2.5 h-2.5 rounded-full animate-pulse ${checkOnline ? 'bg-green-500' : 'bg-red-500'}`}
+                    <span className={`w-3 h-3 rounded-full animate-pulse ${checkOnline ? 'bg-green-500' : 'bg-red-500'}`}
                     />
                 </div>
 
