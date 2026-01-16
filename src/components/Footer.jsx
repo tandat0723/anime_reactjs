@@ -50,6 +50,8 @@ const Footer = () => {
                 <div className='text-center mt-3'>
                     {'< >'} by <a href='#' className='font-bold hover:text-yellow-400'>Jun</a> 2026
                 </div>
+
+                <div className='my-4 h-0.5 w-20 mx-auto bg-yellow-400 rounded-md' />
             </div>
         </footer>
     )

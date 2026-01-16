@@ -8,8 +8,9 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-950">
       <Header />
-      <Content />
-      <main className="max-w-7xl p-6 text-white mx-auto">
+
+      <main className="max-w-7xl p-6 text-white mx-auto mt-15">
+        <Content />
         <CharacterList />
       </main>
       <Footer />
